@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End CSS reset*/
+
+
+.container {
+	position:absolute;
+	height: 350px;
+	width: 450px;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -150px;
+	background: #4592FF;
+	border-radius: 0px;
+	color:#FFF;
+	font-family: Arial;
+	font-weight: lighter;
+}
+
+
+#begin {
+	display: block;
+	}
+
+h2 {
+	font-family: Helvetica;
+	color:#FFF;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 135px;
+}
+
+#start {
+	font-family: Helvetica;
+	color:#FFF;
+	font-size: 28px;
+	text-align: center; 
+	border-style: none;
+    background: #1F77F2;	
+    margin-left: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    cursor: pointer; cursor: hand;
+}
+#start:hover {
+	background-color:#1646B5;
+}
+
+#question {
+	display: none;
+	font-family: Helvetica;
+	color:#FFF; 
+	border-style: none;
+    background: rgba(00, 100, 220, 0.7);
+    margin-left: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width:400px;
+    cursor: pointer; cursor: hand;
+
+}
+
+#questionNumber {
+	float: left;
+	position: relative;
+	margin-top: 5px;
+	margin-left: 7px;
+	font-family: times;
+	display: none;
+}
+
+#correct {
+	float: right;
+	margin-top: 5px;
+	margin-right: 7px;
+	font-family: times;
+	display: none;
+}
+
+#sentence {
+	font-family: Helvetica;
+	color:#FFF;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	display: none;
+	clear: both;
+}
+
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+
+input[type=radio] + label {
+	display:none;
+    font-family: Helvetica;
+	color:#FFF;
+	font-size: 18px;
+	text-align: center; 
+	border-style: none;
+    background: #4592FF;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    cursor: pointer; cursor: hand;
+
+}
+
+input[type=radio]:checked + label { 
+   background-image: none;
+   background-color:#1646B5;
+}
+
+input[type=radio] + label:hover {
+	background: #1646B5;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+
+}
+
+.correctAnswer {
+	background-color:#3AF046 !important;
+}
+
+.wrongAnswer {
+	background-color:#FF4B19 !important;
+}
+
+
+#submit {
+	display:block;
+    font-family: Helvetica;
+	color:#FFF;
+	font-size: 20px;
+	text-align: center; 
+	border-style: none;
+    background: #0044E3;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    cursor: pointer; cursor: hand;
+    margin-top: -5px;
+    display: none;
+}
+
+#submit:hover {
+	background: #FF7C1F;
+
+}
+
+#next {
+	display:block;
+    font-family: Helvetica;
+	color:#FFF;
+	font-size: 24px;
+	text-align: center; 
+	border-style: none;
+    background: #1646B5;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    cursor: pointer; cursor: hand;
+    margin-top: -5px;
+    display: none;
+}
+
+#next:hover {
+	background: #FF7C1F;
+
+}
+
+#restart {
+	font-size: 16px;
+	color: #1F77F2;
+	font-family: Times;
+	cursor: pointer; cursor: hand;
+	margin: 0px;
+}
+
+#restart:hover {
+	color:#1646B5;
+}
+
+
+
+

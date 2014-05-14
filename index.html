@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css"/>
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		 <script src="application.js"></script>
+		<title>Quiz</title>
+	</head>
+
+
+	<body>
+
+		<div class="container">
+		
+
+			<div id="begin">
+
+				<h2>New York Quiz</h2>
+				<button type="button" name="start" id="start" value="start"> 
+           				Ready?
+        			</button>
+
+			</div>
+
+			<div class="question">
+				<div id="questionNumber">Question <span id="number"></span> of 5</div>
+				<div id="correct"><span id="numberCorrect">0</span> of 5 Correct</div>
+				<h2 id="sentence"></h2>
+
+				<ul class="list">
+					<li>
+						<input type="radio" id="radio0" name="radios" value="0">
+   						<label for="radio0"></label>
+					</li>
+					<li>	
+						<input type="radio" id="radio1" name="radios"value="1">
+   						<label for="radio1"></label>
+					</li>
+					<li>
+						<input type="radio" id="radio2" name="radios" value="2">
+   						<label for="radio2"></label> 
+   					</li>	
+   					<li>
+   						<input type="radio" id="radio3" name="radios" value="3">
+   						<label for="radio3"></label> 
+   					</li>
+   				</ul>
+			
+   				<button type="button" name="submit" id="submit" value="submit"> 
+           				Submit
+        			</button>
+
+
+   				<button type="button" name="next" id="next" value="next"> 
+           				Next&rarr;
+        			</button>
+        			
+			</div>
+			<h2 id="restart">Start Over</h2>
+			
+
+
+
+		</div>
+
+
+
+		
+	</body>
